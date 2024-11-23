@@ -8,11 +8,11 @@
   <h1>Signup Form</h1>
   <form method="post" action="your_form_handler.php">
     <label for="name">Name:</label>
-    <input type="text" id="name" name="name" required placeholder="Name">
+    <input type="text" id="name" name="name" required placeholder="Your Name">
     <br>
 
     <label for="email">Email:</label>
-    <input type="email" id="email" name="email" required placeholder="Email">
+    <input type="email" id="email" name="email" required placeholder="Your Email">
     <br>
 
     <label for="gender">Gender:</label>
@@ -24,7 +24,7 @@
 
     <label for="cars">Car Brands:</label>
     <select id="cars" name="cars">
-      <option value="">Please choose an option</option>
+      <option value="">--Please choose an option--</option>
       <option value="toyota">Toyota</option>
       <option value="honda">Honda</option>
       <option value="ford">Ford</option>
@@ -32,7 +32,7 @@
     <br>
 
     <label for="age">Age:</label>
-    <input type="number" id="age" name="age" required>
+    <input type="number" id="age" name="age" required placeholder="Your Age">
     <br>
 
     <label for="dob">Date of Birth:</label>
@@ -44,14 +44,14 @@
     <br>
 
     <label for="password">Password:</label>
-    <input type="password" id="password" name="password" required>
+    <input type="password" id="password" name="password" required placeholder="Your Password">
     <br>
 
     <label for="tos">I agree to the TOS:</label>
     <input type="checkbox" id="tos" name="tos" required>
     <br>
 
-    <input type="submit" value="Submit">
+    <button type="submit">Submit</button>
   </form>
 
   <script type="text/javascript" src="./script.js"></script>
